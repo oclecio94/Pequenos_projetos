@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.menu-principal {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.logo {
+  height: 100px;
+  width: auto;
+}
+ul {
+  display: flex;
+  list-style: none;
+  font-weight: bold;
+}
+li {
+  padding: 0 20px;
+}
+header .menu-principal ul li:nth-child(3) {
+  border-right: 5px solid black;
+}
+.showcase {
+  height: 150vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: wheat;
+  background: url(/img/akatsuki.png) center center/cover;
+}
+.showcase-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 300px;
+  margin-bottom: 1px;
+}
+h2 {
+  font-size: 5rem;
+}
+
+p {
+  margin: 20px 0;
+  font-size: 1.1rem;
+}
+
+.katsu {
+  background: black;
+  color: wheat;
+  text-transform: uppercase;
+  padding: 15px 60px;
+  border: none;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+#footer {
+  background: black;
+  color: white;
+}
+.sociais {
+  display: flex;
+}
+.sociais i {
+  margin: 0;
+  font-size: 3rem;
+}
+.country {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.country .brasil-flag {
+  height: 20px;
+  width: auto;
+  display: inline-block;
+  margin-left: 10px;
+}
